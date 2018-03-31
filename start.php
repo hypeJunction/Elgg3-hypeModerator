@@ -19,10 +19,10 @@ return function () {
 		$subtypes = get_registered_entity_types('object');
 
 		foreach ($subtypes as $subtype) {
-			$moderator->onRead('object', $subtype, Role::ALLOW);
-			$moderator->onUpdate('object', $subtype, Role::ALLOW);
-			$moderator->onDelete('object', $subtype, Role::ALLOW);
-			$moderator->onAdminister('object', $subtype, Role::ALLOW);
+			$moderator->onRead('object', $subtype, Role::ALLOW, Role::OVERRIDE);
+			$moderator->onUpdate('object', $subtype, Role::ALLOW, Role::OVERRIDE);
+			$moderator->onDelete('object', $subtype, Role::ALLOW, Role::OVERRIDE);
+			$moderator->onAdminister('object', $subtype, Role::ALLOW, Role::OVERRIDE);
 		}
 
 		elgg_register_plugin_hook_handler('register', 'menu:user_hover', \hypeJunction\Moderator\UserHoverMenu::class);
