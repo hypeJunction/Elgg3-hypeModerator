@@ -10,8 +10,8 @@ return function () {
 
 	elgg_register_event_handler('init', 'system', function () {
 
-		elgg()->roles->register('moderator');
-		elgg()->roles->register('group_moderator', ['moderator']);
+		elgg()->roles->register('moderator', [], 800);
+		elgg()->roles->register('group_moderator', ['moderator'], 800);
 
 		$moderator = elgg()->roles->moderator;
 		/* @var $moderator Role */
