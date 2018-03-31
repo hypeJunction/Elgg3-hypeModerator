@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/hypeJunctionPro/Elgg3-hypeModerator/compare/1.0.1...1.0.2) (2018-03-31)
+
+
+### Bug Fixes
+
+* **roles:** set higher priority on moderator role ([3a359a7](https://github.com/hypeJunctionPro/Elgg3-hypeModerator/commit/3a359a7))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/hypeJunctionPro/Elgg3-hypeModerator/compare/1.0.0...1.0.1) (2018-03-31)
 
