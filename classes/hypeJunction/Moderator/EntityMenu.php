@@ -4,7 +4,7 @@ namespace hypeJunction\Moderator;
 
 use Elgg\Hook;
 use hypeJunction\Capabilities\Role;
-use hypeJunction\Capabilities\RolesService;
+use hypeJunction\Capabilities\Roles;
 
 class EntityMenu {
 

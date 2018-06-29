@@ -24,9 +24,9 @@ class UserHoverMenu {
 		}
 
 		$svc = elgg()->roles;
-		/* @var $svc \hypeJunction\Capabilities\RolesService */
+		/* @var $svc \hypeJunction\Capabilities\Roles */
 
-		if (elgg_is_logged_in()) {
+		if (elgg_is_admin_logged_in()) {
 			if (!$svc->hasRole('moderator', $user)) {
 				$menu[] = ElggMenuItem::factory([
 					'name' => 'moderator:make',

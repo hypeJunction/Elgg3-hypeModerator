@@ -35,7 +35,7 @@ class MakeModeratorAction {
 		}
 
 		$svc = elgg()->roles;
-		/* @var $svc \hypeJunction\Capabilities\RolesService */
+		/* @var $svc \hypeJunction\Capabilities\Roles */
 
 		$role = $target instanceof \ElggGroup ? 'group_moderator' : 'moderator';
 
