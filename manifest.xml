@@ -4,7 +4,7 @@
     <name>hypeModerator</name>
     <id>hypeModerator</id>
     <description>Moderator role</description>
-   <version type="dist">1.0.2</version>
+   <version type="dist">1.1.0</version>
 
     <category>capabilities</category>
     <category>roles</category>
